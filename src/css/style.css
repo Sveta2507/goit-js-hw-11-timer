@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: rgb(148, 9, 9);
+}
+#header_title {
+  text-align: center;
+  margin-top: 100px;
+}
+#timer {
+  width: 75%;
+  margin: 100px auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+#timer div {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 30px 10px;
+}
