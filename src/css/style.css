@@ -5,7 +5,7 @@
 
 body {
   background-color: black;
-  color: rgb(148, 9, 9);
+  color: rgb(231, 39, 39);
 }
 #header_title {
   text-align: center;
@@ -21,9 +21,11 @@ body {
 
 #timer div {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   align-items: center;
   border: 1px solid red;
+  font-weight: bold;
+  font-size: 30px;
   border-radius: 5px;
   padding: 30px 10px;
 }
