@@ -3,7 +3,7 @@ import css from "./css/style.css";
 import timerRefs from "./refs/timerRefs.js";
 console.log(timerRefs);
 
-const newYearTime = new Date("Jan 1 2021");
+const newYearTime = new Date("Jan 1 2023");
 console.log(+newYearTime);
 
 const startTime = Date.now();
